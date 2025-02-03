@@ -1,0 +1,18 @@
+[package]
+name = "boundary"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/developmentseed/cql2-rs"
+authors = [
+    "David Bitner <bitner@dbspatial.com>"
+]
+keywords = ["boundary", "infinity"]
+
+[dependencies]
+num-traits = "0.2.19"
+thiserror = "2.0.11"
+
+[dev-dependencies]
+jiff = "0.1.29"
+rstest = "0.24.0"
